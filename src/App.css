@@ -303,12 +303,20 @@ footer p {
     font-size: 1.2rem;
   }
 
+
+
   .grid-gallery img {
     height: 200px;
   }
 }
 
 @media (max-width: 480px) {
+  header nav ul {
+    /* display: none; */
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
   .hero-content h1 {
     font-size: 1.8rem;
   }
@@ -317,12 +325,16 @@ footer p {
     font-size: 1rem;
   }
 
+  section {
+    padding: 2rem 2rem;
+  }
+
   .insta-gallery img {
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 140px;
   }
 
   .grid-gallery img {
-    height: 150px;
+    height: 220px;
   }
 }
