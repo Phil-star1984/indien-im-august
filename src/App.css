@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
@@ -32,8 +32,6 @@ header nav ul {
   gap: 3rem;
 }
 
-
-
 header nav ul li a {
   color: #fff;
   text-decoration: none;
@@ -42,11 +40,12 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #00bfa5;
+  color: #ff00ee;
 }
 
 #hero {
-  background: url('/public/images/indien-im-august-philsplash.jpg') no-repeat right center/cover;
+  background: url("/public/images/indien-im-august-philsplash.jpg") no-repeat
+    right center/cover;
   height: 50vh;
   display: flex;
   align-items: center;
@@ -80,7 +79,6 @@ header nav ul li a:hover {
   font-weight: bold;
   letter-spacing: 2px;
   margin: 0;
- 
 }
 
 .hero-content p {
@@ -109,20 +107,40 @@ section h2 {
   font-size: 2.5rem;
   color: #222;
   margin-bottom: 2rem;
-  
 }
 
 section h3 {
-
   text-align: left;
 }
 
-section p, section ul {
+section p,
+section ul {
   font-size: 1.1rem;
   color: #555;
   margin-bottom: 1.5rem;
   text-align: left;
 }
+
+#introduction {
+  background-color: #8401a8;
+}
+
+.introduction-content h2,
+.introduction-content p {
+  color: rgb(255, 255, 255);
+}
+
+#climate {
+  background-color: #8401a8;
+}
+
+.climate-content h2,
+.climate-content p,
+.climate-content h3,
+.climate-content li {
+  color: rgb(255, 255, 255);
+}
+
 
 .insta-gallery {
   display: flex;
@@ -132,8 +150,8 @@ section p, section ul {
 }
 
 .insta-gallery img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 12px;
   transition: transform 0.3s ease;
@@ -210,5 +228,3 @@ footer p {
     height: 150px;
   }
 }
-
-
