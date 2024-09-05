@@ -86,19 +86,19 @@ function ClimateAugust() {
       {/* Platzhalter für Instagram Story Bilder */}
       <div className="insta-gallery">
         <img
-          src="/public/images/climateaugust-01.jpeg"
+          src="/images/climateaugust-01.jpeg"
           alt="Instagram Story Placeholder 1"
         />
         <img
-          src="/public/images/climateaugust-03.jpeg"
+          src="/images/climateaugust-03.jpeg"
           alt="Instagram Story Placeholder 2"
         />
         <img
-          src="/public/images/climateaugust-02.jpeg"
+          src="/images/climateaugust-02.jpeg"
           alt="Instagram Story Placeholder 3"
         />
         <img
-          src="/public/images/climateaugust-05.jpeg"
+          src="/images/climateaugust-05.jpeg"
           alt="Instagram Story Placeholder 3"
         />
       </div>

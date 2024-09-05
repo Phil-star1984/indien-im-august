@@ -163,15 +163,15 @@ function VisaApplication() {
       {/* Platzhalter für Instagram Story Bilder */}
       <div className="insta-gallery">
         <img
-          src="/public/images/india-evisa-sampleform.jpeg"
+          src="/images/india-evisa-sampleform.jpeg"
           alt="Instagram Story Placeholder 1"
         />
         <img
-          src="/public/images/india-evisa-phil.jpeg"
+          src="/images/india-evisa-phil.jpeg"
           alt="Instagram Story Placeholder 2"
         />
         <img
-          src="/public/images/Phil.jpg"
+          src="/images/Phil.jpg"
           alt="Instagram Story Placeholder 3"
         />
       </div>

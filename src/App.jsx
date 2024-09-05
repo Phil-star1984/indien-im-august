@@ -1,6 +1,9 @@
 import "./App.css";
+import Checklist from "./components/Checklist";
 import ClimateAugust from "./components/ClimateAugust";
+import ImageGallery from "./components/ImageGallery";
 import Introduction from "./components/Introduction";
+import MoneyAndPrices from "./components/MoneyAndPrices";
 import PeopleAndCulture from "./components/PeopleAndCulture";
 import VisaApplication from "./components/VisaApplication";
 
@@ -12,6 +15,11 @@ function App() {
         <nav>
           <ul>
             <li>
+              <img
+                className="indian-flag"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCnQXo7eUZqYL9_br-pTPTkbowPp_JvvFdqw&s"
+                alt="flag of India"
+              />
               <a href="#hero">Indien im August</a>
             </li>
             <li>
@@ -24,11 +32,15 @@ function App() {
               <a href="#culture">Menschen & Kultur</a>
             </li>
             <li>
-              <a href="#gallery">Bildergalerie</a>
+              <a href="#money-prices">Geld & Preise</a>
             </li>
             <li>
               <a href="#checklist">Packliste & Checkliste</a>
             </li>
+            <li>
+              <a href="#gallery">Bildergalerie</a>
+            </li>
+
             <li>
               <a href="#contact">Kontakt</a>
             </li>
@@ -52,40 +64,11 @@ function App() {
 
       <PeopleAndCulture />
 
-      {/* Gallery Section */}
-      <section id="gallery">
-        <h2>Bildergalerie</h2>
-        <div className="grid-gallery">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJDdhNX-OgE2pprpZOnLJk1pFHyuvDY9hASg&s"
-            alt="Bild 1"
-          />
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJDdhNX-OgE2pprpZOnLJk1pFHyuvDY9hASg&s"
-            alt="Bild 2"
-          />
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJDdhNX-OgE2pprpZOnLJk1pFHyuvDY9hASg&s"
-            alt="Bild 3"
-          />
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJDdhNX-OgE2pprpZOnLJk1pFHyuvDY9hASg&s"
-            alt="Bild 4"
-          />
-        </div>
-      </section>
+      <MoneyAndPrices />
 
-      {/* Checklist Section */}
-      <section id="checklist">
-        <h2>Packliste & Checkliste</h2>
-        <ul>
-          <li>Leichte, atmungsaktive Kleidung</li>
-          <li>Regenjacke und wasserdichte Schuhe</li>
-          <li>Wichtige Reiseunterlagen (Reisepass, Visum)</li>
-          <li>Reiseadapter für indische Steckdosen</li>
-          <li>Medikamente und Reiseapotheke</li>
-        </ul>
-      </section>
+      <ImageGallery />
+
+      <Checklist />
 
       {/* Kontakt Section */}
       <section id="contact">

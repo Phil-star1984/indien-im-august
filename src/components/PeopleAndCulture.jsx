@@ -98,19 +98,19 @@ function PeopleAndCulture() {
       {/* Platzhalter für Instagram Story Bilder */}
       <div className="insta-gallery">
         <img
-          src="/public/images/peopleandculture-01.jpeg"
+          src="/images/peopleandculture-01.jpeg"
           alt="Instagram Story Placeholder 1"
         />
         <img
-          src="/public/images/peopleandculture-02.jpeg"
+          src="/images/peopleandculture-02.jpeg"
           alt="Instagram Story Placeholder 2"
         />
         <img
-          src="/public/images/peopleandculture-03.jpeg"
+          src="/images/peopleandculture-03.jpeg"
           alt="Instagram Story Placeholder 3"
         />
         <img
-          src="/public/images/peopleandculture-04.jpeg"
+          src="/images/peopleandculture-04.jpeg"
           alt="Instagram Story Placeholder 3"
         />
       </div>
