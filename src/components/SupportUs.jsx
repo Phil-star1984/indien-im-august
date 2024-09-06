@@ -9,23 +9,9 @@ function SupportUs() {
         <p>
           Mit <strong>Indien im August</strong> wollen wir Menschen wie dir mit
           wichtigen und nützlichen Informationen weiterhelfen und die Welt
-          bunter und lebenswerter gestalten. Du kannst uns auf drei Arten
-          unterstützen:
+          bunter und lebenswerter gestalten. Wenn dir unsere Informationen
+          weitergeholfen haben, kannst du uns auf drei Arten unterstützen:
         </p>
-        <ul>
-          <li>
-            1. Unser{" "}
-            <strong>Kinderbuch "Sini und die Reise zum Blauwal"</strong> kaufen.
-          </li>
-          <li>
-            2. Phil als{" "}
-            <strong>Web Developer/Art Director/Grafikdesigner buchen</strong>.
-          </li>
-          <li>
-            3. Phil als <strong>Schnellzeichner/Live Künstler</strong> für
-            deinen <strong>Event</strong> engagieren.
-          </li>
-        </ul>
       </div>
       {/* Platzhalter für Instagram Story Bilder */}
       <div className="insta-gallery">
