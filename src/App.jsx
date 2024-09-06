@@ -78,7 +78,7 @@ function App() {
         <h2>Kontakt</h2>
         <p>
           Für Fragen und Anfragen, kontaktiere uns per E-Mail:{" "}
-          <a href="mailto:info@phil-splash.de">info@phil-splash.de</a>
+          <a href="mailto:info@millionpainter.de">info@millionpainter.de</a>
         </p>
       </section>
 
