@@ -5,6 +5,7 @@ import ImageGallery from "./components/ImageGallery";
 import Introduction from "./components/Introduction";
 import MoneyAndPrices from "./components/MoneyAndPrices";
 import PeopleAndCulture from "./components/PeopleAndCulture";
+import SupportUs from "./components/SupportUs";
 import VisaApplication from "./components/VisaApplication";
 
 function App() {
@@ -63,6 +64,8 @@ function App() {
       <ClimateAugust />
 
       <PeopleAndCulture />
+
+      <SupportUs />
 
       <MoneyAndPrices />
 
