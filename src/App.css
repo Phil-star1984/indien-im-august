@@ -230,7 +230,7 @@ figure img {
 }
 
 footer {
-  background-color: #222;
+  background-color: #8401a8;
   color: #fff;
   padding: 2rem;
   text-align: center;
@@ -238,6 +238,10 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+footer a {
+  color: #ff00ee;
 }
 
 /* Checklist.css */
