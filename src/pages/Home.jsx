@@ -9,11 +9,14 @@ import PeopleAndCulture from "../components/PeopleAndCulture";
 import SupportUs from "../components/SupportUs";
 import VisaApplication from "../components/VisaApplication";
 import Contact from "../components/Contact";
+import IndiaFlagDeco from "../components/IndiaFlagDeco";
 
 function Home() {
   return (
     <>
       <HeroSection />
+
+      <IndiaFlagDeco />
 
       <Introduction />
 

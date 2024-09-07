@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
 import Impressum from "./pages/Impressum";
+import IndiaFlagDeco from "./components/IndiaFlagDeco";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/impressum" element={<Impressum />} />
 
       </Routes>
-
+      <IndiaFlagDeco />
       <Footer />
     </>
   );
