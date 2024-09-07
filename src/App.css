@@ -278,6 +278,10 @@ figure {
   border-radius: 12px;
 }
 
+.insta-gallery a {
+  text-decoration: none;
+}
+
 figure img {
   margin-top: 10px;
 }
@@ -285,6 +289,10 @@ figure img {
 #gallery {
   background-color: #8401a8;
 }
+
+/* #figcaption {
+  text-decoration: none;
+} */
 
 .grid-gallery {
   display: grid;
