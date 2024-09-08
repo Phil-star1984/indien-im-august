@@ -164,15 +164,15 @@ function VisaApplication() {
       <div className="insta-gallery">
         <img
           src="/images/india-evisa-sampleform.jpeg"
-          alt="Instagram Story Placeholder 1"
+          alt="Bild Screenshot des e-Visa Antrags für Indien"
         />
         <img
           src="/images/india-evisa-phil.jpeg"
-          alt="Instagram Story Placeholder 2"
+          alt="Bild erhaltenes e-Visa für Indien"
         />
         <img
-          src="/images/Phil.jpg"
-          alt="Instagram Story Placeholder 3"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxICgiE0vMeGHRHbLPtaqSPVJwxWGCQr_sTw&s"
+          alt="Bild indisches Visum"
         />
       </div>
     </section>

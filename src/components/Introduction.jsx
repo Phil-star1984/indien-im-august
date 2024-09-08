@@ -26,16 +26,16 @@ function Introduction() {
       {/* Platzhalter für Instagram Story Bilder */}
       <div className="insta-gallery">
         <img
-          src="/images/introduction-sini&philsplash.jpeg"
-          alt="Instagram Story Placeholder 1"
+          src="/images/introduction-sini&phil.webp"
+          alt="Bild Sinikka und Phil Splash"
         />
         <img
           src="/images/introduction-culture.jpeg"
-          alt="Instagram Story Placeholder 2"
+          alt="Bild Traumfänger auf indischem Markt"
         />
         <img
           src="/images/introduction-food.jpeg"
-          alt="Instagram Story Placeholder 3"
+          alt="Bild indische Speise Vada Pav"
         />
       </div>
     </section>
